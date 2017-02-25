@@ -3,10 +3,21 @@
     src: url('../fonts/Hyperspace.woff') format('woff'), url('../fonts/Hyperspace.ttf')  format('truetype');
 }
 
+body, #game {
+  background: #000000 ;
+}
+
+#game {
+  background: #000000 url(../img/asteroids_logo.png) no-repeat center 15%;
+  background-size: 75%;
+  margin: 5% auto;
+  border: 3px solid #ff0dbf;
+}
+
 .loader {
 	position: absolute;
-	top: 300px;
-	left: 375px;
+	top: 400px;
+	left: 30%;
 	color: #ffffff;
 	font-size: 36px;
 	font-family: Hyperspace;

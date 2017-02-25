@@ -8,12 +8,18 @@
 	<title>Document</title>
 </head>
 <body>
-	<h1>Asteroids</h1>
 	<div id="game"></div>
 	<div class="loader"><span class="loaderPercent">0</span><span class="loaderSign">%</span></div>
 	<script src="js/lib/socket.io-1.4.5.js"></script>
 	<script src="js/lib/crafty.js"></script>
-	<script src="js/Game.js"></script>
+	<script src="js/lib/Util.js"></script>
+	<script src="js/config/constants.js"></script>
+	<script src="js/config/assets.js"></script>
+	<script src="js/components/Asteroid.js"></script>
+	<script src="js/components/Ship.js"></script>
+	<script src="js/components/Bullet.js"></script>
+	<script src="js/components/Saucer.js"></script>
+	<script src="js/components/Game.js"></script>
 	<script>
 		(new Game()).init();
 	</script>
